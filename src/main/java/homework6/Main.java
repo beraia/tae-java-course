@@ -26,7 +26,11 @@ public class Main {
 //        new Dog("Rex").makeSound();
 
 //        HW6  - Shape + Rectangle + Circle
-        System.out.println(new Rectangle(4, 5).area());
-        System.out.printf("%.2f", new Circle(3).area());
+//        System.out.println(new Rectangle(4, 5).area());
+//        System.out.printf("%.2f", new Circle(3).area());
+
+//        HW6 - Vehicle + Car — Constructor with super
+        new Car("Toyota", 2020, 4).info();
+
     }
 }
