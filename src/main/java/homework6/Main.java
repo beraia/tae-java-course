@@ -18,8 +18,11 @@ public class Main {
 //        System.out.println("ბალანსი არის : " + acc.getBalance());
 
 //        HW6 - Counter
-        Counter c = new Counter();
-        c.countTo(5);
-        System.out.println(c.count);
+//        Counter c = new Counter();
+//        c.countTo(5);
+//        System.out.println(c.count);
+
+//        HW6 - Animal
+        new Dog("Rex").makeSound();
     }
 }
