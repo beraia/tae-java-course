@@ -33,13 +33,16 @@ public class Main {
 //        new Car("Toyota", 2020, 4).info();
 
 //        HW6 - Calculator
-        Calculator calc = new Calculator();
-        double sumResult = calc.calculate(10, 3, '+');
-        System.out.println("Addition result is - " + sumResult);
-        double multiplicationResult = calc.calculate(10, 3, '*');
-        System.out.println("Multiplication result is - " + multiplicationResult);
-        double divisionResult = calc.calculate(10, 0, '/');
-        System.out.println("Result of division is - " + divisionResult);
+//        Calculator calc = new Calculator();
+//        double sumResult = calc.calculate(10, 3, '+');
+//        System.out.println("Addition result is - " + sumResult);
+//        double multiplicationResult = calc.calculate(10, 3, '*');
+//        System.out.println("Multiplication result is - " + multiplicationResult);
+//        double divisionResult = calc.calculate(10, 0, '/');
+//        System.out.println("Result of division is - " + divisionResult);
+
+//        HW6 - Student
+        System.out.println(new Student("ანა", new int[]{85, 92, 78}).getStatus());
 
     }
 }
