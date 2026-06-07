@@ -13,8 +13,13 @@ public class Main {
 //        p1.introduce();
 
 //        HW6 - BankAccount
-        BankAccount acc = new BankAccount("Temo", 100);
-        acc.deposit(50);
-        System.out.println("ბალანსი არის : " + acc.getBalance());
+//        BankAccount acc = new BankAccount("Temo", 100);
+//        acc.deposit(50);
+//        System.out.println("ბალანსი არის : " + acc.getBalance());
+
+//        HW6 - Counter
+        Counter c = new Counter();
+        c.countTo(5);
+        System.out.println(c.count);
     }
 }
