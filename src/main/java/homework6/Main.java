@@ -23,6 +23,10 @@ public class Main {
 //        System.out.println(c.count);
 
 //        HW6 - Animal
-        new Dog("Rex").makeSound();
+//        new Dog("Rex").makeSound();
+
+//        HW6  - Shape + Rectangle + Circle
+        System.out.println(new Rectangle(4, 5).area());
+        System.out.printf("%.2f", new Circle(3).area());
     }
 }
