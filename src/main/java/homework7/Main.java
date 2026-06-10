@@ -17,24 +17,32 @@ public class Main {
 //        d.sleep();
 
 //        HW7 - Drawable + 3 class — Interface + Polymorphism
-        Drawable[] shapes = {
-                new Square(),
-                new Square(),
-                new Star()
-        };
-        for (Drawable shape : shapes){
+//        Drawable[] shapes = {
+//                new Square(),
+//                new Square(),
+//                new Star()
+//        };
+//        for (Drawable shape : shapes){
+//
+//            if(shape instanceof Square){
+//                System.out.println("This is square");
+//            }else if(shape instanceof Triangle){
+//                System.out.println("This is triangle");
+//            }else if(shape instanceof Star){
+//                System.out.println("This is star");
+//            }
+//
+//            shape.draw();
+//        }
 
-            if(shape instanceof Square){
-                System.out.println("This is square");
-            }else if(shape instanceof Triangle){
-                System.out.println("This is triangle");
-            }else if(shape instanceof Star){
-                System.out.println("This is star");
-            }
+//        HW7 - Book — Constructor Chaining
+        Book book1 = new Book("Java");
+        Book book2 = new Book("Java", "Bloch");
+        Book book3 = new Book("Java", "Bloch", 2020);
 
-            shape.draw();
-        }
-
+        System.out.println(book1);
+        System.out.println(book2);
+        System.out.println(book3);
 
     }
 }
