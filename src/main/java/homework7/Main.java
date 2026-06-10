@@ -51,18 +51,27 @@ public class Main {
 //        new Bike("Trek").stop();
 
 //        HW7 - Person - Comparable Interface
-        Person[] people = {
-                new Person("Ana", 25),
-                new Person("Beka", 30),
-                new Person("Cita", 22)
+//        Person[] people = {
+//                new Person("Ana", 25),
+//                new Person("Beka", 30),
+//                new Person("Cita", 22)
+//        };
+//
+//        Arrays.sort(people);
+//
+//        for(Person person : people){
+//            System.out.println(person);
+//        }
+
+//        HW7 - Employee — Abstract Hierarchy
+        Employee[] team = {
+                new FullTime("Anna", 5000),
+                new PartTime("Beka", 25, 80)
         };
 
-        Arrays.sort(people);
-
-        for(Person person : people){
-            System.out.println(person);
+        for (Employee e : team) {
+            e.printInfo(); System.out.println(e.calculateSalary());
         }
-
 
     }
 }
