@@ -12,9 +12,29 @@ public class Main {
 
 
 //        HW7 - Animal - Abstract class
-        Dog d = new Dog("Rex");
-        d.makeSound();
-        d.sleep();
+//        Dog d = new Dog("Rex");
+//        d.makeSound();
+//        d.sleep();
+
+//        HW7 - Drawable + 3 class — Interface + Polymorphism
+        Drawable[] shapes = {
+                new Square(),
+                new Square(),
+                new Star()
+        };
+        for (Drawable shape : shapes){
+
+            if(shape instanceof Square){
+                System.out.println("This is square");
+            }else if(shape instanceof Triangle){
+                System.out.println("This is triangle");
+            }else if(shape instanceof Star){
+                System.out.println("This is star");
+            }
+
+            shape.draw();
+        }
+
 
     }
 }
