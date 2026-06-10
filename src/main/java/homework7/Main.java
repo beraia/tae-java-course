@@ -36,13 +36,17 @@ public class Main {
 //        }
 
 //        HW7 - Book — Constructor Chaining
-        Book book1 = new Book("Java");
-        Book book2 = new Book("Java", "Bloch");
-        Book book3 = new Book("Java", "Bloch", 2020);
+//        Book book1 = new Book("Java");
+//        Book book2 = new Book("Java", "Bloch");
+//        Book book3 = new Book("Java", "Bloch", 2020);
+//
+//        System.out.println(book1);
+//        System.out.println(book2);
+//        System.out.println(book3);
 
-        System.out.println(book1);
-        System.out.println(book2);
-        System.out.println(book3);
+//        HW7 - Vehicle - Abstract + Concrete
+        new Car("Toyota").start();
+        new Bike("Trek").stop();
 
     }
 }
