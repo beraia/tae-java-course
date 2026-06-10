@@ -1,6 +1,8 @@
 /** @author <Temur Beraia> */
 package homework7;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 //        HW7 - Shape interface
@@ -45,8 +47,22 @@ public class Main {
 //        System.out.println(book3);
 
 //        HW7 - Vehicle - Abstract + Concrete
-        new Car("Toyota").start();
-        new Bike("Trek").stop();
+//        new Car("Toyota").start();
+//        new Bike("Trek").stop();
+
+//        HW7 - Person - Comparable Interface
+        Person[] people = {
+                new Person("Ana", 25),
+                new Person("Beka", 30),
+                new Person("Cita", 22)
+        };
+
+        Arrays.sort(people);
+
+        for(Person person : people){
+            System.out.println(person);
+        }
+
 
     }
 }
